@@ -1,0 +1,33 @@
+.front {
+    padding: 88px 0 0 0;
+    height: 100vh;
+    background: url(../../../imgs/bgImage.png) center center/ cover no-repeat ;
+    &_header{
+        font-family: 'Open Sans';
+        font-weight: 400;
+        color: $white;
+        width: 59.1%;
+        @include fz(34);
+        line-height: 44px;
+        letter-spacing: 0.3px;
+        margin: 0 0 17px 0;
+    }
+    &_text {
+        color: $white_transparent;
+        max-width: 250px;
+        @include fz(12);
+        line-height: 18px; 
+        letter-spacing: 0.415px;
+        margin: 0 0 40px 0;
+    }
+    &_button {
+        width: 125px;
+        height: 36px;
+        color: $white;
+        @include fz(13);
+        letter-spacing: 0.45px;
+        border-radius: 2px;
+        background: linear-gradient(180deg, #4DA3FC 0%, #027EFF 100%);
+        border: none;
+    }
+}

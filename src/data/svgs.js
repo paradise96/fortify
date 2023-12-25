@@ -1,0 +1,3 @@
+export const greenArrow = <svg xmlns="http://www.w3.org/2000/svg" width="21" height="16" fill="none"><path fill="#0ABE55" fillRule="evenodd" d="M20.571.929a.5.5 0 0 0-.707 0L6.792 14l-5.3-5.3a.5.5 0 0 0-.707.708l5.573 5.572a.502.502 0 0 0 .634.19.5.5 0 0 0 .204-.16L20.57 1.637a.5.5 0 0 0 0-.707Z" clipRule="evenodd" /></svg>
+
+export const redCross = <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" fill="none"><path fill="#DF2D2D" fillRule="evenodd" d="M14.635.932a.5.5 0 0 0-.707 0L7.575 7.285 1.21.921a.5.5 0 1 0-.707.707l6.364 6.364-6.374 6.375a.5.5 0 1 0 .707.707L7.575 8.7l6.363 6.363a.5.5 0 1 0 .707-.707L8.282 7.992l6.353-6.353a.5.5 0 0 0 0-.707Z" clipRule="evenodd"/></svg>

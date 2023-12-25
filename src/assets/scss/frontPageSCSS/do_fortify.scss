@@ -1,0 +1,17 @@
+.do_fortify {
+    padding: 226px 0 108px 0;
+    background: $light_background;
+    .img_wrap {
+        max-width: 320px;
+        max-height: 201px;
+    }
+    &_wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    &_description {
+        max-width: 290px;
+    }
+}

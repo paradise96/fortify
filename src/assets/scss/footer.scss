@@ -1,0 +1,35 @@
+.footer {
+    background-color: $dark_black;
+    padding: 86px 0 45px 0;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .top {
+        margin: 0 0 104px 0;
+    }
+    &_right {
+        display: flex;
+        gap: 21px;
+    }
+    &_copyright {
+        color: $white_transparent;
+        @include fz(15);
+        font-weight: 400;
+        letter-spacing: 0.34px;
+        margin: 0 0 9px 0;
+    }
+    &_terms {
+        color: $white_transparent;
+        @include fz(13);
+        letter-spacing: 0.295px;
+    }
+    a {
+        color: $white_transparent;
+        margin: 0 28px 0 0;
+        &:hover {
+            color: $white;
+        }
+    }
+}
