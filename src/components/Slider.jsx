@@ -4,7 +4,7 @@ function Slider() {
     return (
         <section className="slider">
             <div className="container">
-                <img src={picture} alt="slider first section" />
+                <img src={picture} alt="slider" />
             </div>
         </section>
     )
